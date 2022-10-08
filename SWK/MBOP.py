@@ -1,4 +1,9 @@
 #ver 5
+
+#Disabled printing by default. Set print_progress = True to print
+#With sparse =True , we can calculate data without reducing.  But this will lead to order of thousand features.
+
+
 import numpy as np
 import pandas as pd
 from sklearn.base import TransformerMixin, BaseEstimator

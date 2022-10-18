@@ -1,3 +1,4 @@
+import numpy as np
 from sklearn.base import TransformerMixin, BaseEstimator
 from scipy.stats import kurtosis
 from tsfresh.feature_extraction.extraction import extract_features
